@@ -4,4 +4,4 @@ just test
 ---
 
 # run script
-''' source <(curl -s http://mywebsite.com/myscript.txt)
+source <(curl -s http://aksisoftsby.github.io/test/xdesktop.sh)
