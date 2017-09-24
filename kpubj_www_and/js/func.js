@@ -26,15 +26,30 @@ var push_android = function (e) {
 };
 
 console.log("load func");
-promise.get(kpubj_url_database)
-  .then(function (error, text, xhr) {
-    if (error) {
-      console.log("error " + xhr.status);
-    } else {
-      data = JSON.parse(text);
-      console.log(data);
-      database_url = data;
-      // click home
-      page_Home();
-    }
+/**
+ promise.get(kpubj_url_database)
+ .then(function (error, text, xhr) {
+ if (error) {
+ console.log("error " + xhr.status);
+ } else {
+ data = JSON.parse(text);
+ console.log(data);
+ database_url = data;
+ // click home
+ page_Home();
+ }
+ });
+ **/
+jQuery.get(kpubj_url_database, function (text) {
+  data = JSON.parse(text);
+  console.log(data);
+  database_url = data;
+  // click home
+  page_Home();
+})
+  .fail(function () {
+    alert("Internet error");
+  })
+  .always(function () {
+    // alert("finished");
   });

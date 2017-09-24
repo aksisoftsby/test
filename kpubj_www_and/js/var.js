@@ -3,7 +3,7 @@ var
   , kpubj_url_allpost = 'http://kab-bojonegoro.kpu.go.id/android/allpost.php'
   , kpubj_url_postid = 'http://kab-bojonegoro.kpu.go.id/android/postid.php'
   , kpubj_template_dir = 'template_kpu_bojonegoro'
-// save selama 10 menit bagaimana
+  // save selama 10 menit bagaimana
   , sharemessagetitle = false
   , sharemessagemessage = false
   , sharemessagelink = false
@@ -15,6 +15,7 @@ var
   , factory_parser_database = 'starter.factory_parser_database'
   , database_url = false
   ;
+
 var _appUse = [
   'ionic',
   'ngStorage',
@@ -23,6 +24,7 @@ var _appUse = [
   factory_parser_database,
   'ngCordova'
 ];
+
 var aDiv = {
   pageHome: "#page_Home",
   pageBerita: "#page_Home",
