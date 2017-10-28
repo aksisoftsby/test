@@ -4,6 +4,9 @@
     {
       "type": "Feature",
       "properties": {
+        "code_hasc": "DARJO",
+        "woe_label": "Sidoarjo, Jawa timur",
+        "woe_name": "Sidoarjo",
         "stroke": "#288277",
         "stroke-width": 2,
         "stroke-opacity": 1,
@@ -18,7 +21,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": ""
+        "stroke": "",
+        "woe_label": "Malang, Jawa timur",
+        "woe_name": "Malang",
+        "code_hasc": "MALANG"
       },
       "geometry": {
         "type": "Polygon",
