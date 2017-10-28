@@ -7,6 +7,8 @@
         "code_hasc": "DARJO",
         "woe_label": "Sidoarjo, Jawa timur",
         "woe_name": "Sidoarjo",
+        "gns_name": "Sidoarjo",
+        "name": "Sidoarjo",
         "stroke": "#288277",
         "stroke-width": 2,
         "stroke-opacity": 1,
@@ -24,6 +26,8 @@
         "stroke": "",
         "woe_label": "Malang, Jawa timur",
         "woe_name": "Malang",
+        "name": "Malang",
+        "gns_name": "Malang",
         "code_hasc": "MALANG"
       },
       "geometry": {
