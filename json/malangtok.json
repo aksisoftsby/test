@@ -3,18 +3,6 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "code_hasc": "DARJO",
-        "woe_label": "Sidoarjo, Jawa timur",
-        "woe_name": "Sidoarjo",
-        "gns_name": "Sidoarjo",
-        "name": "Sidoarjo",
-        "stroke": "#288277",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill": "#555555",
-        "fill-opacity": 0.5
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [[[112.20611572265625, -7.757258802866704], [112.11273193359375, -7.798078531355303], [112.071533203125, -7.890588474156217], [112.11273193359375, -8.002117033082156], [112.35443115234375, -7.868823282019818], [112.20611572265625, -7.757258802866704]]]
