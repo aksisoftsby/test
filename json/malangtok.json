@@ -3,6 +3,13 @@
    "features":[
       {
          "type":"Feature",
+         "properties": {
+            "marker-color": "#7e7e7e",
+            "marker-size": "medium",
+            "marker-symbol": "",
+            "icon": "http://maps.google.com/mapfiles/kml/pal3/icon1.png",
+            "description": "Rolfe Lab"
+         },
          "geometry":{
             "type":"Polygon",
             "coordinates":[
